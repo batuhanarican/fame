@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(200,200,200,1);
+}
+
+.fame {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(200,200,200,1);
+/*    box-shadow: inset 0px 0px 0px 16px rgba(0, 150, 255, 1);*/
+/*    border: 5px solid rgba(0, 150, 255, .5);*/
+    border-radius: 50%;
+    animation: rotate 10s infinite ease, bounce 4s infinite ease-in-out, breathe 2s infinite ease-in-out;
+}
+
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    30% {
+        transform: rotateY(360deg);
+    }
+    60% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes bounce {
+    from {
+        top: 0;
+    }
+    50% {
+        top: -60px;
+    }
+}
+
+@keyframes breathe {
+    from {
+        box-shadow: inset 0px 0px 0px 16px rgba(0, 150, 255, 1), 0px 0px 0px 10px rgba(0, 150, 255, .5);
+    }
+    50% {
+        box-shadow: inset 0px 0px 0px 16px rgba(0, 150, 255, 1), 0px 0px 0px 5px rgba(0, 150, 255, .5);
+    }
+    to {
+        box-shadow: inset 0px 0px 0px 16px rgba(0, 150, 255, 1), 0px 0px 0px 10px rgba(0, 150, 255, .5);
+    }
+}
