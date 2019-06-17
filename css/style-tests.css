@@ -10,12 +10,28 @@ h1 {
     margin: 16px auto;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 p {
     font-family: sans-serif;
     color: rgba(80, 80, 80, 1);
     max-width: 80%;
     margin: 16px auto;
 }
+
+span.bold {
+    font-weight: bold;
+}
+
+span.italic {
+    font-style: italic;
+} 
+
+span.underline {
+    text-decoration: underline;
+} 
 
 button {
     position: relative;
@@ -38,32 +54,76 @@ button:hover {
 }
 
 .fame-container {
-    position: relative;
-    left: 0;
-    right: 0;
     margin: 20px auto 40px auto;
-    width: 120px;
-    height: 120px;
 }
 
-.fame {
-    width: 120px;
-    height: 120px;
-    box-shadow: inset 0px 0px 0px 16px rgba(0, 150, 255, 1);
-    border-radius: 50%;
-    animation: scale 4s infinite 1s ease-in-out, breathe 4s infinite ease-in-out;
+main section .back {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    opacity: .2;
+}
+
+
+main .totaltokens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .totaltokens svg {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+main .totaltokens p {
+    margin: 0 0 0 12px;
+    width: auto;
+    color: rgba(0, 150, 255, 1);
+    text-align: left;
+    font-weight: bold;
+}
+
+main .totaltokens p span {
+    color: rgba(80, 80, 80, 1);
+}
+
+
+main .totaltokens.small {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    top: 10px;
+}
+
+main .totaltokens.small svg {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+main .totaltokens.small p {
+    margin: 0 0 0 4px;
+    width: auto;
+    color: rgba(0, 150, 255, 1);
+    text-align: left;
+/*    font-weight: normal;*/
+    font-size: 14px;
 }
 
 main section article.active {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: 100px;
     margin: auto;
     padding: 20px;
     width: 500px;
-    height: 400px;
+    height: auto;
     background-color: white;
     border-radius: 18px;
     box-shadow: 0px 0px 20px rgba(0,0,0,.15);
