@@ -85,7 +85,7 @@ main section a.locked svg, main section a.locked p {
     opacity: .6;
 }
 
-main section a.unlocked:hover::before {
+main section a.unlocked::before {
     content: '';
     position: absolute;
     left: 0;
@@ -110,10 +110,10 @@ main section a.locked::before {
     z-index: 1;
 }
 
-main section a.locked:hover::before {
+/*main section a.locked:hover::before {
     background: url(../img/locked-hover.svg) no-repeat 50% 50%;
     background-size: 16%;
-}
+}*/
 
 main section a.locked::after {
     content: 'Unlock for 50 tokens';
