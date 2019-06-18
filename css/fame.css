@@ -1,3 +1,19 @@
+span.bold {
+    font-weight: bold;
+}
+
+span.italic {
+    font-style: italic;
+} 
+
+span.underline {
+    text-decoration: underline;
+}
+
+span.blue {
+    color: rgba(0, 150, 255, 1);
+}
+
 .fame-container {
     position: relative;
     left: 0;

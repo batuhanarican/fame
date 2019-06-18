@@ -68,17 +68,21 @@ main section a {
     margin:  auto;
     background-color: white;
     border-radius: 18px;
-    box-shadow: inset 0px 0px 0px 0px rgba(0, 150, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
+    box-shadow: inset 0px 0px 0px 3px rgba(255, 155, 0, 1), 0px 0px 20px rgba(0,0,0,.15);
     transition: box-shadow .3s;
 }
 
-main section a:hover {
+main section a:hover, main section a.locked:hover {
     box-shadow: inset 0px 0px 0px 3px rgba(0, 150, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
     transition: box-shadow .3s;
 }
 
+main section a.locked {
+    box-shadow: inset 0px 0px 0px 3px rgba(180, 180, 180, 1), 0px 0px 20px rgba(0,0,0,.15);
+}
+
 main section a.locked svg, main section a.locked p {
-    opacity: 0;
+    opacity: .6;
 }
 
 main section a.unlocked:hover::before {

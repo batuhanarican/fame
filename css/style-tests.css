@@ -21,18 +21,6 @@ p {
     margin: 16px auto;
 }
 
-span.bold {
-    font-weight: bold;
-}
-
-span.italic {
-    font-style: italic;
-} 
-
-span.underline {
-    text-decoration: underline;
-} 
-
 button {
     position: relative;
     left: 0;
