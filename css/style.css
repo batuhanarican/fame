@@ -68,7 +68,7 @@ main section a {
     margin:  auto;
     background-color: white;
     border-radius: 18px;
-    box-shadow: inset 0px 0px 0px 3px rgba(255, 155, 0, 1), 0px 0px 20px rgba(0,0,0,.15);
+    box-shadow: inset 0px 0px 0px 3px rgba(0, 150, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
     transition: box-shadow .3s;
 }
 

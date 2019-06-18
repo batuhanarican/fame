@@ -20,6 +20,12 @@ p {
     max-width: 80%;
     margin: 16px auto;
 }
+/*
+
+article {
+    max-width: 90%;
+}
+*/
 
 button {
     position: relative;
@@ -107,10 +113,10 @@ main section article.active {
     position: absolute;
     left: 0;
     right: 0;
-    top: 100px;
+    top: 40px;
     margin: auto;
     padding: 20px;
-    width: 500px;
+    width: 80%;
     height: auto;
     background-color: white;
     border-radius: 18px;
