@@ -20,30 +20,25 @@ p {
     max-width: 80%;
     margin: 16px auto;
 }
-/*
-
-article {
-    max-width: 90%;
-}
-*/
 
 button {
     position: relative;
     left: 0;
     right: 0;
     margin: 20px auto;
-    border: 3px rgba(0, 150, 255, 1) solid;
+    border: 3px rgba(0, 140, 255, 1) solid;
     background-color: white;
-    color: rgba(0, 150, 255, 1);
+    color: rgba(0, 140, 255, 1);
     min-width: 200px;
     min-height: 40px;
     font-size: 14px;
     font-weight: bold;
+    border-radius: 10px;
     transition-duration: .3s;
 }
 
 button:hover {
-    background-color: rgba(0, 150, 255, 1);
+    background-color: rgba(0, 140, 255, 1);
     color: white;
 }
 
@@ -75,7 +70,7 @@ main .totaltokens svg {
 main .totaltokens p {
     margin: 0 0 0 12px;
     width: auto;
-    color: rgba(0, 150, 255, 1);
+    color: rgba(0, 140, 255, 1);
     text-align: left;
     font-weight: bold;
 }
@@ -103,7 +98,7 @@ main .totaltokens.small svg {
 main .totaltokens.small p {
     margin: 0 0 0 4px;
     width: auto;
-    color: rgba(0, 150, 255, 1);
+    color: rgba(0, 140, 255, 1);
     text-align: left;
 /*    font-weight: normal;*/
     font-size: 14px;

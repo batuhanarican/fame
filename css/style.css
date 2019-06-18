@@ -45,7 +45,7 @@ main .totaltokens svg {
 main .totaltokens p {
     margin: 0 0 0 12px;
     width: auto;
-    color: rgba(0, 150, 255, 1);
+    color: rgba(0, 140, 255, 1);
     text-align: left;
     font-weight: bold;
 }
@@ -65,7 +65,7 @@ main .freetickets svg {
 main .freetickets p {
     margin: 0 0 0 12px;
     width: auto;
-    color: rgba(0, 150, 255, 1);
+    color: rgba(0, 140, 255, 1);
     text-align: left;
     font-weight: bold;
     font-size: 22px;
@@ -97,7 +97,7 @@ form input[type="submit"] {
     height: 38px;
     width: 100px;
     border-radius: 10px;
-    background-color: rgba(0, 150, 255, 1);
+    background-color: rgba(0, 140, 255, 1);
     color: white;
     border: 0px;
     font-weight: 600;
@@ -119,12 +119,12 @@ main section a {
     margin:  auto;
     background-color: white;
     border-radius: 18px;
-    box-shadow: inset 0px 0px 0px 3px rgba(0, 150, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
+    box-shadow: inset 0px 0px 0px 3px rgba(0, 140, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
     transition: box-shadow .3s;
 }
 
 main section a:hover, main section a.locked:hover {
-    box-shadow: inset 0px 0px 0px 3px rgba(0, 150, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
+    box-shadow: inset 0px 0px 0px 3px rgba(0, 140, 255, 1), 0px 0px 20px rgba(0,0,0,.15);
     transition: box-shadow .3s;
 }
 
@@ -175,7 +175,7 @@ main section a.locked::after {
     height: 36px;
     font-family: sans-serif;
     font-weight: bold;
-    color: rgba(0, 150, 255, 1);
+    color: rgba(0, 140, 255, 1);
 /*    color: rgba(0, 170, 050, 1);*/
 }
 
