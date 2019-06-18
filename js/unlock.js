@@ -3,7 +3,7 @@ var getTest2 = document.querySelector(".locked.test2");
 var getTest3 = document.querySelector(".locked.test3");
 var getBalance = document.querySelector(".totaltokens p");
 
-var totalTokens = 300;
+var totalTokens = 100;
 
 getBalance.innerHTML = "<span>Balance:</span><br>" + totalTokens + " tokens";
 

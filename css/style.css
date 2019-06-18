@@ -50,8 +50,58 @@ main .totaltokens p {
     font-weight: bold;
 }
 
-main .totaltokens p span {
+main .freetickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .freetickets svg {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+main .freetickets p {
+    margin: 0 0 0 12px;
+    width: auto;
+    color: rgba(0, 150, 255, 1);
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+main .freetickets p span {
     color: rgba(80, 80, 80, 1);
+}
+
+form label, form input {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input[type="email"] {
+    height: 34px;
+    width: 220px;
+    border-radius: 10px;
+    border: 1px solid rgba(180, 180, 180, 1);;
+    margin-top: 6px;
+}
+
+form input[type="submit"] {
+    height: 38px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(0, 150, 255, 1);
+    color: white;
+    border: 0px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 main section {
@@ -143,18 +193,6 @@ main section article .tokens {
 main section article .tokens svg {
     width: 50px; 
     margin-left:11px;
-}
-
-main section article .badge {
-    display: grid;
-    grid-template-columns: 54px 1fr;
-    align-items: center;
-    margin: 10px auto;
-}
-
-main section article .badge svg {
-    width: 36px; 
-    margin-left: 11px;
 }
 
 main section article .tokens p, main section article .badge p {
