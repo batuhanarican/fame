@@ -9,6 +9,7 @@ html::before {
     opacity: .08;
     background-attachment: fixed;
     pointer-events: none;
+    z-index: -1;
 }
 
 span.bold {

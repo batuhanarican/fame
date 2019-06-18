@@ -17,7 +17,7 @@ function unlockTest1() {
         
         setTimeout(
         function() {
-            getTest1.href = "test.html";
+            getTest1.href = "test1.html";
         }, 100);
         
         getTest1.removeEventListener("click", unlockTest1, false);
@@ -37,7 +37,7 @@ function unlockTest2() {
         
         setTimeout(
         function() {
-            getTest2.href = "#";
+            getTest2.href = "test2.html";
         }, 100);
         
         getTest2.removeEventListener("click", unlockTest2, false);
@@ -57,7 +57,7 @@ function unlockTest3() {
         
         setTimeout(
         function() {
-            getTest3.href = "#";
+            getTest3.href = "test3.html";
         }, 100);
         
         getTest3.removeEventListener("click", unlockTest3, false);
